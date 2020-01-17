@@ -25,8 +25,6 @@ $(document).ready(function() {
       $("#python").show();
     }
   
-
-
     event.preventDefault();
     
   });
