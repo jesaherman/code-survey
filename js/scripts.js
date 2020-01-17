@@ -14,17 +14,16 @@ $(document).ready(function() {
     var animal = parseInt($("select#animal").val());
     var water = parseInt($("select#water").val());
     var freeTime = parseInt($("select#freetime").val());
-    
+   
     var result = add(nature, travel, animal, water, freeTime);
     
     if (result <=7) {
-      $("#ruby").show();
+      $("#ruby").show(1000);
     } else if (result === 8) {
-      $("#csharp").show();
-    } else if (result >=9 ) {
-      $("#python").show();
-    }
-    
+      $("#csharp").show(1000);
+    } else if (result >=9) {
+      $("#python").show(1000); 
+    } 
 
     event.preventDefault();
     

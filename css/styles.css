@@ -9,18 +9,19 @@
 }
 
 body {
+  
   font-family: garamond;
   background-color: #536b78;
 }
 
 .well {
+  color:#54494B;
   background-color: #C9D7F8;
   margin-top: 15px;
   padding: 15px;
   }
 h1 {
   text-align: center;
-  color: #C9D7F8;
   font-size: 30px;
 }
 
@@ -43,7 +44,7 @@ button {
   background-color: #C9D7F8;
 }
 
-#ruby, #csharp, #python {
+#ruby, #csharp, #python, #notech {
   display: none;
   margin: 15px;
 
