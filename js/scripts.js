@@ -24,7 +24,8 @@ $(document).ready(function() {
     } else if (result >=9 ) {
       $("#python").show();
     }
-  
+    
+
     event.preventDefault();
     
   });
