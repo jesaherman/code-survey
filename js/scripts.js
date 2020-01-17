@@ -19,10 +19,16 @@ $(document).ready(function() {
     
     if (result <=7) {
       $("#ruby").show(1000);
+      $("#csharp").hide();
+      $("#python").hide();
     } else if (result === 8) {
       $("#csharp").show(1000);
+      $("#ruby").hide();
+      $("#python").hide();
     } else if (result >=9) {
-      $("#python").show(1000); 
+      $("#python").show(1000);
+      $("#csharp").hide();
+      $("#ruby").hide(); 
     } 
 
     event.preventDefault();
