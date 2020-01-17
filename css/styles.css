@@ -13,20 +13,26 @@ body {
   background-color: #536b78;
 }
 
-.jumbotron {
+.well {
   background-color: #C9D7F8;
   margin-top: 15px;
-  padding:15px;
+  padding: 15px;
   }
 h1 {
   text-align: center;
   color: #C9D7F8;
+  font-size: 30px;
 }
 
 h2 {
   font-size: 22px;
 }
-
+h3 {
+  font-size: 15px;
+}
+#languageSurvey {
+  padding:7px;
+}
 p {
   font-size: 22px;
   color:#FEFFFE;
