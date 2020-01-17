@@ -9,3 +9,10 @@ h1 {
 h2 {
   font-size: 20px;
 }
+#ruby, #csharp, #python {
+  display: none;
+}
+
+button {
+  margin:20px;
+}
