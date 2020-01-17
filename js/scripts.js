@@ -7,8 +7,8 @@ var add = function(nature, travel, animal, water, freeTime) {
 // Front-end
 
 $(document).ready(function() {
-  $("form#languageSurvey").click(function(event){
-    event.preventDefault();
+  $("form#languageSurvey").submit(function(event){
+    
     var nature = parseInt($("select#nature").val());
     var travel = parseInt($("select#travel").val());
     var animal = parseInt($("select#animal").val());
@@ -17,15 +17,17 @@ $(document).ready(function() {
     
     var result = add(nature, travel, animal, water, freeTime);
     
-    // $("output").append
-    
-    alert(result);
+    if (result <=7) {
+      $("#ruby").show();
+    } else if (result === 8) {
+      $("#csharp").show();
+    } else if (result >=9 ) {
+      $("#python").show();
+    }
+  
 
 
-
-    // $(#ruby).show();
-    // $(#csharp).show();
-    // $(#python).show();
+    event.preventDefault();
     
   });
-});
+}); 
