@@ -8,16 +8,20 @@ img {
 
 body {
   font-family: garamond;
-  background-color: navajowhite;
+  background-color: #536b78;
 }
 
 h1 {
   text-align: center;
-  color: rgb(240, 115, 65);
+  color: #f7dad9;
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 25px;
+}
+
+p {
+  font-size: 22px;
 }
 
 button {
