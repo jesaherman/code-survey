@@ -4,6 +4,7 @@ var add = function(nature, travel, animal, water, freeTime) {
   return nature + travel + animal + water + freeTime;
 };
 
+
 // Front-end
 
 $(document).ready(function() {
@@ -32,6 +33,5 @@ $(document).ready(function() {
     } 
 
     event.preventDefault();
-    
   });
 }); 
