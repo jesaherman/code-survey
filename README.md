@@ -14,7 +14,7 @@ All that is needed to run this project is access to the internet.
 
 ## Known Bugs
 
-I am working on removing the results once the survey is taken a second time. Right now if you take the survey a second time without refreshing the page then the old results remain visible. 
+No known bugs at this time!
 
 ## Support and contact details
 
