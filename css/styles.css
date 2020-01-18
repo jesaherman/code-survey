@@ -9,14 +9,16 @@
 }
 
 body {
-  
   font-family: garamond;
-  background-color: #536b78;
+  /* background-color: #536b78; */
+  /* background-image: linear-gradient(#536b78, #545977); */
+  background-image: linear-gradient(#FFF1D0, #06AED5, #086788, #06AED5,#FFF1D0);
+  background-image: auto;
 }
 
 .well {
-  color:#54494B;
-  background-color: #C9D7F8;
+  color:#FFF1D0;
+  background-color: black;
   margin-top: 15px;
   padding: 15px;
   }
@@ -36,7 +38,7 @@ h3 {
 }
 p {
   font-size: 22px;
-  color:#FEFFFE;
+  color:black;
 }
 
 button {
